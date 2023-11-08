@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500$display=swap");
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+  
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg,#0a0a0a,#3a4452 );
+}
+#container{
+    /* height: 50%;
+    width:30%; */
+    border: 1px solid rgba(255, 255, 255, 0.468);
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.894);
+    padding: 20px;
+ 
+   
+   
+}
+#inputbox{
+    margin: 10px;
+    padding: 24px;
+    width: 100%;
+    /* height: 15%; */
+    border: none;
+    background: transparent;
+   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.728);
+   text-align: right;
+   cursor: pointer;
+   color: white;
+   font-size: 30px;
+   
+}
+input::placeholder{
+    color: white;
+   
+}
+button{
+    
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+    background: transparent;
+    box-shadow:  -8px -8px 15px rgba(0, 0, 0, 0.828);
+   cursor: pointer;
+   margin-left: 30px;
+  color: white;
+
+}
+#equalbtn{
+    background-color: rgba(255, 68, 0, 0.695);
+}
+#btn{
+    color:rgba(153, 205, 50, 0.6);
+    font-weight: bold;
+}
